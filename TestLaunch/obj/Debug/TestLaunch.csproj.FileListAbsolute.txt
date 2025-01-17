@@ -1,0 +1,7 @@
+C:\Users\Герман\source\repos\TestLaunch\TestLaunch\obj\Debug\TestLaunch.csproj.AssemblyReference.cache
+C:\Users\Герман\source\repos\TestLaunch\TestLaunch\obj\Debug\TestLaunch.csproj.CoreCompileInputs.cache
+C:\Users\Герман\source\repos\TestLaunch\TestLaunch\bin\Debug\TestLaunch.exe.config
+C:\Users\Герман\source\repos\TestLaunch\TestLaunch\bin\Debug\TestLaunch.exe
+C:\Users\Герман\source\repos\TestLaunch\TestLaunch\bin\Debug\TestLaunch.pdb
+C:\Users\Герман\source\repos\TestLaunch\TestLaunch\obj\Debug\TestLaunch.exe
+C:\Users\Герман\source\repos\TestLaunch\TestLaunch\obj\Debug\TestLaunch.pdb
