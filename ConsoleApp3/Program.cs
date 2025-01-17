@@ -17,7 +17,7 @@ namespace ConsoleApp3
 
             Student s2;
             s2 = new Student();
-            s2.FirstName = "Dimka";
+            s2.FirstName = "Roma";
             s2.LastName = "Oslopov";
             s2.Grade = 2;
 
