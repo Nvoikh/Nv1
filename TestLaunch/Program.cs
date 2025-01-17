@@ -10,23 +10,18 @@ namespace TestLaunch
     {
         static void Main(string[] args)
         {
-            Student student = new Student("Dimka", "Oslopov", 17);
-            Console.WriteLine($"First Name - {student.firstName}");
-            Console.WriteLine($"Last Name - {student.lastName}");
-            Console.WriteLine($"Age - {student.age}");
+            double firstSum = AddNumbers(12.7, 16.35);
+            Console.WriteLine($"firstSum = {firstSum}");
+            double secondSum = AddNumbers(9.5, 10);
+            Console.WriteLine($"secondSum = {secondSum}");
         }
-    }
-    public class Student
-    {
-        internal string firstName;
-        internal string lastName;
-        internal int age;
-
-        public Student(string firstName, string lastName, int age)
+        public static double AddNumbers(double firstNumber, double secondNumber) => firstNumber + secondNumber;
+        public static void Hello()
         {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.age = age;
+            Console.WriteLine("Hello from a void function.");
         }
     }
+   
+        
+    
 }
