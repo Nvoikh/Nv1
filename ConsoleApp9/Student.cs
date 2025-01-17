@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp9
 {
-    internal class Student:Person 
+    public class Student : IPerson
     {
-        public int Grade { get; set; }
-        public override string GetDetails() => "{FullName} of age {Age}";
-        
+        public string FullName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Age { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public string GetDetails()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetDetails(double height)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

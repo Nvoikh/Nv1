@@ -6,9 +6,25 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp9
 {
-    internal class Professor:Person
+    public class Professor : IPerson,ITest
     {
-        public string Subject {  get; set; }
-        public override string GetDetails() => "{FullName} of age {Age}";
+        public string Subject { get; set; }
+        public string FullName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Age { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public string GetDetails()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetDetails(double height)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Test()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
