@@ -11,22 +11,25 @@ namespace ConsoleApp21
     {
         static void Main(string[] args)
         {
-            Func<double,double > square = delegate(double value) { return value * value; };
-            Console.WriteLine($"square = {square(2)}");
+            Action<double> square = Square;
+            square(4);
 
-            Func<double, double> cubic = (double value) => value * value * value; 
-            Console.WriteLine($"cubic = {cubic(2)}");
+            Action<double> cubic = Cubic;
+            cubic(4);
 
-            Func < double> two= Two;
-            Console.WriteLine($"two = {two()}");
+       Action two= Two;
+            two();
+            Action show = Show;
+            show();
+
 
             
         }
 
-        static double Square (double number) => Math.Pow (number, 2);
+        static void Square (double number) => Console.WriteLine(Math.Pow (number, 2));
 
-        static double Cubic (double number ) => Math.Pow (number, 3);
-        static double Two() => 2;
+        static void Cubic (double number ) => Console.WriteLine(Math.Pow (number, 3));
+        static void Two() => Console.WriteLine(2);
 
         static void Show() => Console.WriteLine("Hello There !");
      }
